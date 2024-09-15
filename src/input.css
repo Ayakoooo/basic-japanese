@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.appear-animation {
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+}
