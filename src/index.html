@@ -1,390 +1,390 @@
-  <!doctype html>
-  <html lang="en" class="dark scroll-smooth" data-theme="dark">
-    <head>
-      <meta charset="UTF-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <title>Learn Japanese</title>
-      <link rel="stylesheet" href="output.css" />
-      <link rel="shortcut icon" href="/icons/favicon.ico" type="image/x-icon" />
-      <link rel="icon" href="/icons/favicon.ico" type="image/x-icon" />
-    </head>
-    <body class="scroll-smooth bg-base-200">
-      <nav class="navbar fixed z-[100] w-full bg-base-100 dark:shadow-md">
-        <div class="navbar-start">
-          <a class="btn btn-ghost text-2xl" href="index.html">MIS FIT</a>
-        </div>
-        <div class="navbar-end">
-          <div class="dropdown px-4">
-            <div tabindex="0" role="button" class="btn btn-ghost text-lg">
-              Chapters
-            </div>
-            <ul
-              tabindex="0"
-              class="menu dropdown-content z-[1] w-max rounded-box bg-base-100 shadow"
-            >
-              <li>
-                <a href="#chapter-1">Chapter 1</a>
-              </li>
-              <li>
-                <a href="#chapter-2">Chapter 2</a>
-              </li>
-              <li>
-                <a href="#chapter-3">Chapter 3</a>
-              </li>
-            </ul>
+<!doctype html>
+<html lang="en" class="dark scroll-smooth" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Learn Japanese</title>
+    <link rel="stylesheet" href="output.css" />
+    <link rel="shortcut icon" href="/icons/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="/icons/favicon.ico" type="image/x-icon" />
+  </head>
+  <body class="scroll-smooth bg-base-200">
+    <nav class="navbar fixed z-[100] w-full bg-base-100 dark:shadow-md">
+      <div class="navbar-start">
+        <a class="btn btn-ghost text-2xl" href="index.html">MIS FIT</a>
+      </div>
+      <div class="navbar-end">
+        <div class="dropdown px-4">
+          <div tabindex="0" role="button" class="btn btn-ghost text-lg">
+            Chapters
           </div>
-          <label class="swap swap-rotate">
-            <!-- this hidden checkbox controls the state -->
-            <input type="checkbox" class="theme-controller" value="light" />
-
-            <!-- sun icon -->
-            <svg
-              class="swap-off h-6 w-6 fill-current"
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 24 24"
-            >
-              <path
-                d="M5.64,17l-.71.71a1,1,0,0,0,0,1.41,1,1,0,0,0,1.41,0l.71-.71A1,1,0,0,0,5.64,17ZM5,12a1,1,0,0,0-1-1H3a1,1,0,0,0,0,2H4A1,1,0,0,0,5,12Zm7-7a1,1,0,0,0,1-1V3a1,1,0,0,0-2,0V4A1,1,0,0,0,12,5ZM5.64,7.05a1,1,0,0,0,.7.29,1,1,0,0,0,.71-.29,1,1,0,0,0,0-1.41l-.71-.71A1,1,0,0,0,4.93,6.34Zm12,.29a1,1,0,0,0,.7-.29l.71-.71a1,1,0,1,0-1.41-1.41L17,5.64a1,1,0,0,0,0,1.41A1,1,0,0,0,17.66,7.34ZM21,11H20a1,1,0,0,0,0,2h1a1,1,0,0,0,0-2Zm-9,8a1,1,0,0,0-1,1v1a1,1,0,0,0,2,0V20A1,1,0,0,0,12,19ZM18.36,17A1,1,0,0,0,17,18.36l.71.71a1,1,0,0,0,1.41,0,1,1,0,0,0,0-1.41ZM12,6.5A5.5,5.5,0,1,0,17.5,12,5.51,5.51,0,0,0,12,6.5Zm0,9A3.5,3.5,0,1,1,15.5,12,3.5,3.5,0,0,1,12,15.5Z"
-              />
-            </svg>
-
-            <!-- moon icon -->
-            <svg
-              class="swap-on h-6 w-6 fill-current"
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 24 24"
-            >
-              <path
-                d="M21.64,13a1,1,0,0,0-1.05-.14,8.05,8.05,0,0,1-3.37.73A8.15,8.15,0,0,1,9.08,5.49a8.59,8.59,0,0,1,.25-2A1,1,0,0,0,8,2.36,10.14,10.14,0,1,0,22,14.05,1,1,0,0,0,21.64,13Zm-9.5,6.69A8.14,8.14,0,0,1,7.08,5.22v.27A10.15,10.15,0,0,0,17.22,15.63a9.79,9.79,0,0,0,2.1-.22A8.11,8.11,0,0,1,12.14,19.73Z"
-              />
-            </svg>
-          </label>
+          <ul
+            tabindex="0"
+            class="menu dropdown-content z-[1] w-max rounded-box bg-base-100 shadow"
+          >
+            <li>
+              <a href="#chapter-1">Chapter 1</a>
+            </li>
+            <li>
+              <a href="#chapter-2">Chapter 2</a>
+            </li>
+            <li>
+              <a href="#chapter-3">Chapter 3</a>
+            </li>
+          </ul>
         </div>
-      </nav>
-      <main>
-        <div class="hero min-h-screen bg-base-200">
-          <div class="hero-content select-none text-center">
-            <div class="max-w-xl">
-              <label class="swap">
-                <input type="checkbox" />
-                <h1
-                  class="swap-off select-none text-6xl font-bold text-black dark:bg-gradient-to-r dark:from-zinc-400 dark:via-blue-400 dark:to-sky-400 dark:bg-clip-text dark:text-transparent"
-                >
-                  Basic Japanese
-                </h1>
-                <h1
-                  class="swap-on select-none text-6xl font-bold text-black dark:bg-gradient-to-r dark:from-zinc-400 dark:via-blue-400 dark:to-sky-400 dark:bg-clip-text dark:text-transparent"
-                >
-                  基本的な日本語
-                </h1>
-              </label>
-              <label class="swap">
-                <input type="checkbox" />
-                <p class="swap-off py-6">
-                  <span class="font-bold">Through watching YouTube channel</span>,
-                  I've compiled a rich assortment of resources, insights, and
-                  lessons that have shaped my learning experience. This is my
-                  personal chronicle of discovery, a blend of practical tips and
-                  heartfelt musings on mastering the Japanese language. Each entry
-                  represents a piece of my learning adventure, offering a glimpse
-                  into the evolving process of understanding and appreciating this
-                  beautiful language.
-                </p>
-                <p class="swap-on py-6">
-                  <span class="font-bold">YouTubeチャンネルを通じて</span
-                  >、私は豊富なリソース、洞察、そして学習経験を形作ったレッスンをまとめました。これは私の発見の個人的な記録であり、日本語を習得するための実用的なヒントと心からの考えが詰まっています。それぞれのエントリーが私の学習の冒険の一部を表し、この美しい言語を理解し、味わうプロセスの進展を垣間見ることができます。
-                </p>
-              </label>
-              <a class="btn btn-outline" href="#chapter-1"> Get Started </a>
-            </div>
-          </div>
-        </div>
-        <!-- CHAPTER 1 -->
-        <div class="min-h-screen" id="chapter-1">
-          <div class="mb-8">
-            <div class="divider">
+        <label class="swap swap-rotate">
+          <!-- this hidden checkbox controls the state -->
+          <input type="checkbox" class="theme-controller" value="light" />
+
+          <!-- sun icon -->
+          <svg
+            class="swap-off h-6 w-6 fill-current"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M5.64,17l-.71.71a1,1,0,0,0,0,1.41,1,1,0,0,0,1.41,0l.71-.71A1,1,0,0,0,5.64,17ZM5,12a1,1,0,0,0-1-1H3a1,1,0,0,0,0,2H4A1,1,0,0,0,5,12Zm7-7a1,1,0,0,0,1-1V3a1,1,0,0,0-2,0V4A1,1,0,0,0,12,5ZM5.64,7.05a1,1,0,0,0,.7.29,1,1,0,0,0,.71-.29,1,1,0,0,0,0-1.41l-.71-.71A1,1,0,0,0,4.93,6.34Zm12,.29a1,1,0,0,0,.7-.29l.71-.71a1,1,0,1,0-1.41-1.41L17,5.64a1,1,0,0,0,0,1.41A1,1,0,0,0,17.66,7.34ZM21,11H20a1,1,0,0,0,0,2h1a1,1,0,0,0,0-2Zm-9,8a1,1,0,0,0-1,1v1a1,1,0,0,0,2,0V20A1,1,0,0,0,12,19ZM18.36,17A1,1,0,0,0,17,18.36l.71.71a1,1,0,0,0,1.41,0,1,1,0,0,0,0-1.41ZM12,6.5A5.5,5.5,0,1,0,17.5,12,5.51,5.51,0,0,0,12,6.5Zm0,9A3.5,3.5,0,1,1,15.5,12,3.5,3.5,0,0,1,12,15.5Z"
+            />
+          </svg>
+
+          <!-- moon icon -->
+          <svg
+            class="swap-on h-6 w-6 fill-current"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M21.64,13a1,1,0,0,0-1.05-.14,8.05,8.05,0,0,1-3.37.73A8.15,8.15,0,0,1,9.08,5.49a8.59,8.59,0,0,1,.25-2A1,1,0,0,0,8,2.36,10.14,10.14,0,1,0,22,14.05,1,1,0,0,0,21.64,13Zm-9.5,6.69A8.14,8.14,0,0,1,7.08,5.22v.27A10.15,10.15,0,0,0,17.22,15.63a9.79,9.79,0,0,0,2.1-.22A8.11,8.11,0,0,1,12.14,19.73Z"
+            />
+          </svg>
+        </label>
+      </div>
+    </nav>
+    <main>
+      <div class="hero min-h-screen bg-base-200">
+        <div class="hero-content select-none text-center">
+          <div class="max-w-xl">
+            <label class="swap">
+              <input type="checkbox" />
               <h1
-                class="bg-gradient-to-r from-slate-400 via-indigo-300 to-blue-500 bg-clip-text text-center text-5xl font-extralight text-transparent"
+                class="swap-off select-none bg-gradient-to-r from-zinc-400 via-blue-400 to-sky-400 bg-clip-text text-6xl font-bold text-transparent"
               >
-                CHAPTER 1
+                Basic Japanese
               </h1>
+              <h1
+                class="swap-on select-none bg-gradient-to-r from-zinc-400 via-blue-400 to-sky-400 bg-clip-text text-6xl font-bold text-transparent"
+              >
+                基本的な日本語
+              </h1>
+            </label>
+            <label class="swap">
+              <input type="checkbox" />
+              <p class="swap-off py-6">
+                <span class="font-bold">Through watching YouTube channel</span>,
+                I've compiled a rich assortment of resources, insights, and
+                lessons that have shaped my learning experience. This is my
+                personal chronicle of discovery, a blend of practical tips and
+                heartfelt musings on mastering the Japanese language. Each entry
+                represents a piece of my learning adventure, offering a glimpse
+                into the evolving process of understanding and appreciating this
+                beautiful language.
+              </p>
+              <p class="swap-on py-6">
+                <span class="font-bold">YouTubeチャンネルを通じて</span
+                >、私は豊富なリソース、洞察、そして学習経験を形作ったレッスンをまとめました。これは私の発見の個人的な記録であり、日本語を習得するための実用的なヒントと心からの考えが詰まっています。それぞれのエントリーが私の学習の冒険の一部を表し、この美しい言語を理解し、味わうプロセスの進展を垣間見ることができます。
+              </p>
+            </label>
+            <a class="btn btn-outline" href="#chapter-1"> Get Started </a>
+          </div>
+        </div>
+      </div>
+      <!-- CHAPTER 1 -->
+      <div class="min-h-screen" id="chapter-1">
+        <div class="mb-8">
+          <div class="divider">
+            <h1
+              class="bg-gradient-to-r from-slate-400 via-indigo-300 to-blue-500 bg-clip-text text-center text-5xl font-extralight text-transparent"
+            >
+              CHAPTER 1
+            </h1>
+          </div>
+        </div>
+        <div class="hero min-h-screen">
+          <div class="hero-content">
+            <div class="max-w-screen-lg text-center">
+              <h1 class="text-3xl font-bold lg:text-5xl">
+                Japanese Core Sentence
+              </h1>
+              <p class="text-pretty py-6">
+                Japanese sentences are pretty simple. We have a
+                <span>main car</span> and an <span>engine</span>
+                <br />
+                Two types of sentences exist:
+                <span class="italic">
+                  A does B | Sakura walks and A is B | Sakura is Japanese
+                </span>
+              </p>
+              <div class="flex w-full flex-col justify-between lg:flex-row">
+                <!-- First sentence example -->
+                <div
+                  class="flex flex-col items-center justify-center gap-4 py-6 lg:text-2xl"
+                >
+                  <span>Sakura walks | A does B</span>
+                  <span class="flex gap-8 border">
+                    <span class="flex flex-col">
+                      <span class="text-slate-500">A</span>
+                      <span>Sakura</span>
+                    </span>
+                    <span class="flex flex-col">
+                      <span>+</span>
+                      <span>が</span>
+                    </span>
+                    <span class="flex flex-col">
+                      <span class="text-slate-500">B</span>
+                      <span>aruku</span>
+                    </span>
+                  </span>
+                </div>
+                <div class="divider divider-horizontal"></div>
+                <!-- Second sentence example -->
+                <div
+                  class="flex flex-col items-center justify-center gap-4 py-6 lg:text-2xl"
+                >
+                  <span>Sakura is Japanese | A is B</span>
+                  <span class="flex gap-8">
+                    <span class="flex flex-col">
+                      <span class="text-slate-500">A</span>
+                      <span>Sakura</span>
+                    </span>
+                    <span class="flex flex-col">
+                      <span>+</span>
+                      <span>が</span>
+                    </span>
+                    <span class="flex flex-col">
+                      <span class="text-slate-500">B</span>
+                      <span>Nihonjin</span>
+                    </span>
+                    <span class="flex flex-col">
+                      <span>+</span>
+                      <span>だ</span>
+                    </span>
+                  </span>
+                </div>
+                <div class="divider divider-horizontal"></div>
+                <div
+                  class="flex flex-col items-center justify-center gap-4 py-6 lg:text-2xl"
+                >
+                  <h2>Describing words end with い</h2>
+                  <span class="flex gap-8">
+                    <span class="flex flex-col">
+                      <span class="text-slate-500">A</span>
+                      <span>Pen</span>
+                    </span>
+                    <span class="flex flex-col">
+                      <span>+</span>
+                      <span>が</span>
+                    </span>
+                    <span class="flex flex-col">
+                      <span class="text-slate-500">B</span>
+                      <span>akai</span>
+                    </span>
+                    <span class="flex flex-col">
+                      <span class="text-red-600">∅</span>
+                      <span class="text-slate-500">だ</span>
+                    </span>
+                  </span>
+                </div>
+              </div>
+              <div
+                class="flex w-full items-center justify-center lg:justify-end"
+              >
+                <span class="text-center text-sm text-slate-500 lg:w-[30%]"
+                  >Note: No need to use <kbd class="kbd kbd-sm">だ</kbd>,
+                  because <kbd class="kbd kbd-sm">い</kbd></span
+                >
+              </div>
             </div>
           </div>
-          <div class="hero min-h-screen">
-            <div class="hero-content">
-              <div class="max-w-screen-lg text-center">
-                <h1 class="text-3xl font-bold lg:text-5xl">
-                  Japanese Core Sentence
-                </h1>
-                <p class="text-pretty py-6">
-                  Japanese sentences are pretty simple. We have a
-                  <span>main car</span> and an <span>engine</span>
+        </div>
+      </div>
+
+      <!-- CHAPTER 2 -->
+      <div class="min-h-screen" id="chapter-2">
+        <div class="mb-8">
+          <div class="divider">
+            <h1
+              class="bg-gradient-to-r from-slate-300 via-indigo-600 to-blue-500 bg-clip-text text-center text-5xl font-extralight text-transparent"
+            >
+              CHAPTER 2
+            </h1>
+          </div>
+        </div>
+        <div
+          class="flex w-full flex-col flex-wrap items-center justify-evenly bg-base-200 lg:min-h-[50vh] lg:flex-row"
+        >
+          <div class="h-[20vh] lg:h-[30vh] lg:w-96">
+            <h1 class="text-center text-3xl font-bold lg:text-5xl">
+              Zero Pronoun
+            </h1>
+            <div class="mt-4 grid grid-cols-2 px-4 text-xl lg:px-0 lg:text-2xl">
+              <span class="flex items-center gap-1">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="22px"
+                  viewBox="0 -960 960 960"
+                  width="22px"
+                  class="fill-red-500"
+                >
+                  <path
+                    d="M480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q54 0 104-17.5t92-50.5L228-676q-33 42-50.5 92T160-480q0 134 93 227t227 93Zm252-124q33-42 50.5-92T800-480q0-134-93-227t-227-93q-54 0-104 17.5T284-732l448 448Z"
+                  />
+                </svg>
+                が
+              </span>
+              <span class="text-right">どようびだ</span>
+              <span class="flex items-center gap-1">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="22px"
+                  viewBox="0 -960 960 960"
+                  width="22px"
+                  class="fill-red-500"
+                >
+                  <path
+                    d="M480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q54 0 104-17.5t92-50.5L228-676q-33 42-50.5 92T160-480q0 134 93 227t227 93Zm252-124q33-42 50.5-92T800-480q0-134-93-227t-227-93q-54 0-104 17.5T284-732l448 448Z"
+                  />
+                </svg>
+                ga
+              </span>
+              <span class="text-right">doyoubi da</span>
+              <span class="flex items-center gap-1">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="22px"
+                  viewBox="0 -960 960 960"
+                  width="22px"
+                  class="fill-red-500"
+                >
+                  <path
+                    d="M480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q54 0 104-17.5t92-50.5L228-676q-33 42-50.5 92T160-480q0 134 93 227t227 93Zm252-124q33-42 50.5-92T800-480q0-134-93-227t-227-93q-54 0-104 17.5T284-732l448 448Z"
+                  />
+                </svg>
+                it
+              </span>
+              <span class="text-right">it is Saturday</span>
+            </div>
+          </div>
+          <div class="h-[20vh] lg:h-[30vh] lg:w-96">
+            <h1 class="text-center text-3xl font-bold lg:text-5xl">
+              Wo/o Carriage
+            </h1>
+            <h2 class="text-center text-4xl font-extralight">を</h2>
+            <p class="text-pretty px-4 text-center text-xl lg:px-0 lg:text-2xl">
+              Object: noun we are doing something to
+            </p>
+          </div>
+        </div>
+        <div
+          class="flex items-center justify-center bg-base-200 lg:min-h-[50vh]"
+        >
+          <div class="flex flex-col lg:flex-row">
+            <div class="w-80 space-y-4 text-center">
+              <h1 class="text-2xl font-bold">か - MAIN CARRIAGE</h1>
+              <div class="tooltip tooltip-right" data-tip="watashi-ga">
+                <p class="text-xl">わたしが</p>
+              </div>
+              <p class="text-xl text-slate-500">I</p>
+            </div>
+            <div class="divider lg:divider-horizontal"></div>
+            <div class="w-80 space-y-4 text-center">
+              <h1 class="text-2xl font-bold">を - COUPLER</h1>
+              <div class="tooltip tooltip-right" data-tip="keeki-wo">
+                <p class="text-xl">けーきを</p>
+              </div>
+              <p class="text-xl text-slate-500">cake</p>
+            </div>
+            <div class="divider lg:divider-horizontal"></div>
+            <div class="w-80 space-y-4 text-center">
+              <h1 class="text-2xl font-bold">う - ENGINE</h1>
+              <div class="tooltip tooltip-right" data-tip="taberu">
+                <p class="text-xl">たべる</p>
+              </div>
+              <p class="text-xl text-slate-500">eat</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="min-h-screen">
+        <div class="hero">
+          <div class="hero-content w-full flex-col">
+            <div class="collapse collapse-plus bg-base-200">
+              <input type="radio" name="my-accordion-3" checked="checked" />
+              <div class="collapse-title text-xl font-medium">
+                The practice sentence (can be in full Japanese, hiragana or
+                romaji)
+              </div>
+              <div class="collapse-content">
+                <p>
+                  If you use romaji you should place a hyphen between a particle
+                  and its noun to show that they are part of the same carriage.
                   <br />
-                  Two types of sentences exist:
-                  <span class="italic">
-                    A does B | Sakura walks and A is B | Sakura is Japanese
+                  <span class="font-bold">
+                    歌を歌う or うたをうたう or uta-wo utau
                   </span>
                 </p>
-                <div class="flex w-full flex-col justify-between lg:flex-row">
-                  <!-- First sentence example -->
-                  <div
-                    class="flex flex-col items-center justify-center gap-4 py-6 lg:text-2xl"
-                  >
-                    <span>Sakura walks | A does B</span>
-                    <span class="flex gap-8 border">
-                      <span class="flex flex-col">
-                        <span class="text-slate-500">A</span>
-                        <span>Sakura</span>
-                      </span>
-                      <span class="flex flex-col">
-                        <span>+</span>
-                        <span>が</span>
-                      </span>
-                      <span class="flex flex-col">
-                        <span class="text-slate-500">B</span>
-                        <span>aruku</span>
-                      </span>
-                    </span>
-                  </div>
-                  <div class="divider divider-horizontal"></div>
-                  <!-- Second sentence example -->
-                  <div
-                    class="flex flex-col items-center justify-center gap-4 py-6 lg:text-2xl"
-                  >
-                    <span>Sakura is Japanese | A is B</span>
-                    <span class="flex gap-8">
-                      <span class="flex flex-col">
-                        <span class="text-slate-500">A</span>
-                        <span>Sakura</span>
-                      </span>
-                      <span class="flex flex-col">
-                        <span>+</span>
-                        <span>が</span>
-                      </span>
-                      <span class="flex flex-col">
-                        <span class="text-slate-500">B</span>
-                        <span>Nihonjin</span>
-                      </span>
-                      <span class="flex flex-col">
-                        <span>+</span>
-                        <span>だ</span>
-                      </span>
-                    </span>
-                  </div>
-                  <div class="divider divider-horizontal"></div>
-                  <div
-                    class="flex flex-col items-center justify-center gap-4 py-6 lg:text-2xl"
-                  >
-                    <h2>Describing words end with い</h2>
-                    <span class="flex gap-8">
-                      <span class="flex flex-col">
-                        <span class="text-slate-500">A</span>
-                        <span>Pen</span>
-                      </span>
-                      <span class="flex flex-col">
-                        <span>+</span>
-                        <span>が</span>
-                      </span>
-                      <span class="flex flex-col">
-                        <span class="text-slate-500">B</span>
-                        <span>akai</span>
-                      </span>
-                      <span class="flex flex-col">
-                        <span class="text-red-600">∅</span>
-                        <span class="text-slate-500">だ</span>
-                      </span>
-                    </span>
-                  </div>
-                </div>
-                <div
-                  class="flex w-full items-center justify-center lg:justify-end"
-                >
-                  <span class="text-center text-sm text-slate-500 lg:w-[30%]"
-                    >Note: No need to use <kbd class="kbd kbd-sm">だ</kbd>,
-                    because <kbd class="kbd kbd-sm">い</kbd></span
-                  >
-                </div>
+              </div>
+            </div>
+            <div class="collapse collapse-plus bg-base-200">
+              <input type="radio" name="my-accordion-3" />
+              <div class="collapse-title text-xl font-medium">
+                If there is an invisible carriage, please write the sentence a
+                second time showing the zero pronoun and its particle
+              </div>
+              <div class="collapse-content">
+                <p class="font-bold">
+                  ∅が歌を歌う or ∅がうたをうたう or ∅-ga uta-wo utau
+                </p>
+              </div>
+            </div>
+            <div class="collapse collapse-plus bg-base-200">
+              <input type="radio" name="my-accordion-3" />
+              <div class="collapse-title text-xl font-medium">
+                Give the English meaning
+              </div>
+              <div class="collapse-content">
+                <label class="swap">
+                  <input type="checkbox" />
+                  <div class="swap-on font-extralight">∅が歌を歌う</div>
+                  <div class="swap-off font-extralight">(I) sing a song</div>
+                </label>
+                <p class="text-slate-500">
+                  Note: since there is no singular/plural distinction in
+                  Japanese grammar structure, “(I) sing songs” would also be
+                  correct.
+                </p>
               </div>
             </div>
           </div>
         </div>
-
-        <!-- CHAPTER 2 -->
-        <div class="min-h-screen" id="chapter-2">
-          <div class="mb-8">
-            <div class="divider">
-              <h1
-                class="bg-gradient-to-r from-slate-300 via-indigo-600 to-blue-500 bg-clip-text text-center text-5xl font-extralight text-transparent"
+      </div>
+      <!-- CHAPTER 3 -->
+      <div class="min-h-screen bg-base-200" id="chapter-3">
+        <div class="mb-8">
+          <div class="divider">
+            <div class="indicator">
+              <span class="badge indicator-item badge-primary animate-pulse"
+                >new</span
               >
-                CHAPTER 2
+              <h1
+                class="bg-gradient-to-r from-slate-500 via-indigo-400 to-blue-600 bg-clip-text text-center text-5xl font-extralight text-transparent"
+              >
+                CHAPTER 3
               </h1>
             </div>
           </div>
-          <div
-            class="flex w-full flex-col flex-wrap items-center justify-evenly bg-base-200 lg:min-h-[50vh] lg:flex-row"
-          >
-            <div class="h-[20vh] lg:h-[30vh] lg:w-96">
-              <h1 class="text-center text-3xl font-bold lg:text-5xl">
-                Zero Pronoun
-              </h1>
-              <div class="mt-4 grid grid-cols-2 px-4 text-xl lg:px-0 lg:text-2xl">
-                <span class="flex items-center gap-1">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    height="22px"
-                    viewBox="0 -960 960 960"
-                    width="22px"
-                    class="fill-red-500"
-                  >
-                    <path
-                      d="M480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q54 0 104-17.5t92-50.5L228-676q-33 42-50.5 92T160-480q0 134 93 227t227 93Zm252-124q33-42 50.5-92T800-480q0-134-93-227t-227-93q-54 0-104 17.5T284-732l448 448Z"
-                    />
-                  </svg>
-                  が
-                </span>
-                <span class="text-right">どようびだ</span>
-                <span class="flex items-center gap-1">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    height="22px"
-                    viewBox="0 -960 960 960"
-                    width="22px"
-                    class="fill-red-500"
-                  >
-                    <path
-                      d="M480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q54 0 104-17.5t92-50.5L228-676q-33 42-50.5 92T160-480q0 134 93 227t227 93Zm252-124q33-42 50.5-92T800-480q0-134-93-227t-227-93q-54 0-104 17.5T284-732l448 448Z"
-                    />
-                  </svg>
-                  ga
-                </span>
-                <span class="text-right">doyoubi da</span>
-                <span class="flex items-center gap-1">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    height="22px"
-                    viewBox="0 -960 960 960"
-                    width="22px"
-                    class="fill-red-500"
-                  >
-                    <path
-                      d="M480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q54 0 104-17.5t92-50.5L228-676q-33 42-50.5 92T160-480q0 134 93 227t227 93Zm252-124q33-42 50.5-92T800-480q0-134-93-227t-227-93q-54 0-104 17.5T284-732l448 448Z"
-                    />
-                  </svg>
-                  it
-                </span>
-                <span class="text-right">it is Saturday</span>
-              </div>
-            </div>
-            <div class="h-[20vh] lg:h-[30vh] lg:w-96">
-              <h1 class="text-center text-3xl font-bold lg:text-5xl">
-                Wo/o Carriage
-              </h1>
-              <h2 class="text-center text-4xl font-extralight">を</h2>
-              <p class="text-pretty px-4 text-center text-xl lg:px-0 lg:text-2xl">
-                Object: noun we are doing something to
-              </p>
-            </div>
-          </div>
-          <div
-            class="flex items-center justify-center bg-base-200 lg:min-h-[50vh]"
-          >
-            <div class="flex flex-col lg:flex-row">
-              <div class="w-80 space-y-4 text-center">
-                <h1 class="text-2xl font-bold">か - MAIN CARRIAGE</h1>
-                <div class="tooltip tooltip-right" data-tip="watashi-ga">
-                  <p class="text-xl">わたしが</p>
-                </div>
-                <p class="text-xl text-slate-500">I</p>
-              </div>
-              <div class="divider lg:divider-horizontal"></div>
-              <div class="w-80 space-y-4 text-center">
-                <h1 class="text-2xl font-bold">を - COUPLER</h1>
-                <div class="tooltip tooltip-right" data-tip="keeki-wo">
-                  <p class="text-xl">けーきを</p>
-                </div>
-                <p class="text-xl text-slate-500">cake</p>
-              </div>
-              <div class="divider lg:divider-horizontal"></div>
-              <div class="w-80 space-y-4 text-center">
-                <h1 class="text-2xl font-bold">う - ENGINE</h1>
-                <div class="tooltip tooltip-right" data-tip="taberu">
-                  <p class="text-xl">たべる</p>
-                </div>
-                <p class="text-xl text-slate-500">eat</p>
-              </div>
-            </div>
-          </div>
         </div>
-        <div class="min-h-screen">
-          <div class="hero">
-            <div class="hero-content w-full flex-col">
-              <div class="collapse collapse-plus bg-base-200">
-                <input type="radio" name="my-accordion-3" checked="checked" />
-                <div class="collapse-title text-xl font-medium">
-                  The practice sentence (can be in full Japanese, hiragana or
-                  romaji)
-                </div>
-                <div class="collapse-content">
-                  <p>
-                    If you use romaji you should place a hyphen between a particle
-                    and its noun to show that they are part of the same carriage.
-                    <br />
-                    <span class="font-bold">
-                      歌を歌う or うたをうたう or uta-wo utau
-                    </span>
-                  </p>
-                </div>
-              </div>
-              <div class="collapse collapse-plus bg-base-200">
-                <input type="radio" name="my-accordion-3" />
-                <div class="collapse-title text-xl font-medium">
-                  If there is an invisible carriage, please write the sentence a
-                  second time showing the zero pronoun and its particle
-                </div>
-                <div class="collapse-content">
-                  <p class="font-bold">
-                    ∅が歌を歌う or ∅がうたをうたう or ∅-ga uta-wo utau
-                  </p>
-                </div>
-              </div>
-              <div class="collapse collapse-plus bg-base-200">
-                <input type="radio" name="my-accordion-3" />
-                <div class="collapse-title text-xl font-medium">
-                  Give the English meaning
-                </div>
-                <div class="collapse-content">
-                  <label class="swap">
-                    <input type="checkbox" />
-                    <div class="swap-on font-extralight">∅が歌を歌う</div>
-                    <div class="swap-off font-extralight">(I) sing a song</div>
-                  </label>
-                  <p class="text-slate-500">
-                    Note: since there is no singular/plural distinction in
-                    Japanese grammar structure, “(I) sing songs” would also be
-                    correct.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- CHAPTER 3 -->
-        <div class="min-h-screen bg-base-200" id="chapter-3">
-          <div class="mb-8">
-            <div class="divider">
-              <div class="indicator">
-                <span class="badge indicator-item badge-primary animate-pulse"
-                  >new</span
-                >
-                <h1
-                  class="bg-gradient-to-r from-slate-500 via-indigo-400 to-blue-600 bg-clip-text text-center text-5xl font-extralight text-transparent"
-                >
-                  CHAPTER 3
-                </h1>
-              </div>
-            </div>
-          </div>
-        </div>
-      </main>
-    </body>
-  </html>
+      </div>
+    </main>
+  </body>
+</html>
